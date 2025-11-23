@@ -111,7 +111,7 @@ export default function CanvasEditor() {
     try {
       await navigator.share({
         title: "मी मतदार",
-        text: "माझा नगराध्यक्ष अनिल लक्ष्मीबाई माधवराव केंदळे",
+        text: "माझा नगराध्यक्ष अनिल माधवराव केंदळे",
         url: window.location.href,
       });
     } catch {
