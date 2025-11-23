@@ -55,7 +55,7 @@ export default function CanvasEditor() {
 
       if (image) {
         ctx.save();
-        const borderRadius = 20;
+        const borderRadius = 40;
         const w = imageWidth * scale;
         const h = imageHeight * scale;
         drawRoundedRect(ctx, position.x, position.y, w, h, borderRadius);
